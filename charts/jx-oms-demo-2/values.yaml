@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: footlockerjenkinsx.azurecr.io/bobpaulin/jx-oms-demo-2
+  tag: 0.0.3
   pullPolicy: IfNotPresent
 service:
   name: jx-oms-demo-2
